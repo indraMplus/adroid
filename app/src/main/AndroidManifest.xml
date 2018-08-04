@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.accenter.com.accentermobile">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="com.accenter.com.accentermobile.tool.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/accentlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.accenter.com.accentermobile.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.DetailArtikel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.Beranda"
+            android:label="@string/title_activity_beranda"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.accenter.com.accentermobile.EventActivity"
+            android:label="Agenda Event Accent-er"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.KopdarActivity"
+            android:label="Kopdar Accent-er"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.MemberActivity"
+            android:label="Member List Accent-er"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.TentangActivity"
+            android:label="Tentang Aplikasi AccentDroid"
+            android:screenOrientation="portrait" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.accenter.com.accentermobile.DetailEvent"
+            android:label="DETAIL EVENT"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.DetailKopdar"
+            android:label="DETAIL KOPDAR ACCENT-ER"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.MemberDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.JakartaActivity"
+            android:label="Detail Member Chapter DKI Jakarta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jabar.BandungActivity"
+            android:label="Detail Member Chapter Bandung"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jabar.BogorActivity"
+            android:label="Detail Member Chapter Bogor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jabar.BekaciActivity"
+            android:label="Detail Member Chapter Bekasi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.banten.CilegonActivity"
+            android:label="Detail Member Chapter Cilegon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.banten.BantenActivity"
+            android:label="Detail Member Chapter Banten"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jateng.JogjaActivity"
+            android:label="Detail Member Chapter Yogyakarta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jatim.SidoarjoActivity"
+            android:label="Detail Member Chapter Jatim"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.kepriau.PekanbaruActivity"
+            android:label="Detail Member Chapter Pekanbaru"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.sumut.MedanActivity"
+            android:label="Detail Member Chapter Medan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jatim.MaduraActivity"
+            android:label="Detail Member Chapter Madura"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.sumbar.PadangActivity"
+            android:label="Detail Member Chapter Padang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jabar.TasikActivity"
+            android:label="Detail Member Chapter Tasikmalaya"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jabar.CirebonActivity"
+            android:label="Detail Member Chapter Cirebon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.sumsel.PalembangActivity"
+            android:label="Detail Member Chapter Palembang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.sumbar.JambiActivity"
+            android:label="Detail Member Chapter Jambi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.bali.BaliActivity"
+            android:label="Detail Member Chapter Bali"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.MemberListActivity"
+            android:label="Member Terdaftar Accent-er"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jabar.KarawangActivity"
+            android:label="Detail Member Chapter Karawang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jabar.DepokActivity"
+            android:label="Detail Member Chapter Depok"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jabar.CibuburActivity"
+            android:label="Detail Member Chapter Cibubur"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jabar.SubangActivity"
+            android:label="Detail Member Chapter Subang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jabar.KuninganActivity"
+            android:label="Detail Member Chapter Kuningan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jabar.GarutActivity"
+            android:label="Detail Member Chapter Garut"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jateng.SemarangActivity"
+            android:label="Detail Member Chapter SEmarang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jateng.UngaranActivity"
+            android:label="Detail Member Chapter Ungaran"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jateng.SalatigaActivity"
+            android:label="Detail Member Chapter Salatiga"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jateng.AmbarawaActivity"
+            android:label="Detail Member Chapter Ambarawa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jateng.SoloActivity"
+            android:label="Detail Member Chapter Solo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.jateng.PemalangActivity"
+            android:label="Detail Member Chapter Pemalang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.MemberListInfo"
+            android:label="Deskripsi Region dan Chapter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.sumbar.PariamanActivity"
+            android:label="Detail Member Chapter Pariaman"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.banten.PandeglangActivity"
+            android:label="Detail Member Chapter Pandeglang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.banten.SerangActivity"
+            android:label="Detail Member Chapter Serang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.member.banten.RangkasActivity"
+            android:label="Detail Member Chapter Rangkasbitung"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.DaftarMember"
+            android:label="Pendaftaran Member Baru"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.GaleriKopdar"
+            android:label="GALERI FOTO"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.MemberRegionActivity"
+            android:label="Member Terdaftar Accent-er"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.admin.LoginActivity"
+            android:label="LOGIN ADMIN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.admin.DaftarActivity"
+            android:label="DAFTAR ADMIN"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.admin.BuatArtikel"
+            android:label="Buat Artikel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.admin.UpdateMember"
+            android:label="Edit Member Terdaftar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.admin.UpdateKopdar"
+            android:label="Buat Kopdar"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.accenter.com.accentermobile.admin.UpdateEvent"
+            android:label="Buat Event"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.accenter.com.accentermobile.UpdateActivity" />
+        <!-- Firebase Notifications -->
+        <service android:name="com.accenter.com.accentermobile.firebase.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <activity android:name=".MainChatroomActivity" />
+        <activity android:name=".chat.DaftarChat" />
+        <activity android:name=".chat.MasukChat" />
+        <activity android:name=".chat.GantiPassword" />
+        <activity
+            android:name=".chat.Chatroom"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".chat.ChatroomListActivity" />
+        <activity
+            android:name=".chat.ProfilChat"
+            android:label="@string/title_activity_profil_chat"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".chat.ChatroomsActivitys"
+            android:label="@string/title_activity_chatrooms_activitys"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity
+            android:name="com.accenter.com.accentermobile.member.ListAllMemberActivity"
+            android:label="Member All Regional"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.retrofit.PilihGambarActivity"
+            android:label="Upload Foto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.retrofit.FotoDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.gallery.GaleriFotoMain"
+            android:label="Galeri Foto"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.accenter.com.accentermobile.gallery.AmbilGambarActivity" />
+        <activity
+            android:name="com.accenter.com.accentermobile.StrukturOrganisasi"
+            android:label="Struktur Organisasi Accent-er"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.accenter.com.accentermobile.struktur.StrukturPusat"
+            android:label="Struktur Kepengurusan Accent-er "
+            android:screenOrientation="landscape" />
+        <activity android:name="com.accenter.com.accentermobile.struktur.StrukturDki" />
+        <activity android:name="com.accenter.com.accentermobile.struktur.StrukturJabar" />
+        <activity android:name="com.accenter.com.accentermobile.struktur.StrukturJateng" />
+        <activity android:name="com.accenter.com.accentermobile.struktur.StrukturJatim" />
+        <activity android:name="com.accenter.com.accentermobile.struktur.StrukturBali" />
+        <activity android:name="com.accenter.com.accentermobile.struktur.StrukturJambi" />
+        <activity android:name="com.accenter.com.accentermobile.struktur.StrukturPadang" />
+        <activity android:name="com.accenter.com.accentermobile.struktur.StrukturBanten" />
+        <activity android:name="com.accenter.com.accentermobile.struktur.StrukturCipasera" />
+        <activity android:name="com.accenter.com.accentermobile.admin.UpdatePengurus" />
+        <activity android:name="com.accenter.com.accentermobile.SaranActivity" />
+        <activity
+            android:name="com.accenter.com.accentermobile.Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.accenter.com.accentermobile.AboutPage"
+            android:label="Tentang Accent-er Mobile"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

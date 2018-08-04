@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <EditText
+        android:id="@+id/txt_id"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pastikan update member di isi dengan benar sebelum di simpan"
+        android:id="@+id/textView6"
+        android:textColor="#bc0c0c" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Member"
+        android:id="@+id/textView7"
+        android:layout_marginTop="6dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txt_nama"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Nama"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:inputType="textCapWords"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Punggung"
+        android:id="@+id/textView8"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txt_nopung"
+        android:layout_marginBottom="10dp"
+        android:hint="Belum Ada Nopung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:inputType="textCapWords|text"
+        android:textColor="#fbb811" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regional / Chapter"
+        android:id="@+id/textView10"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txt_chapter"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:hint="Region / Chapter"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:inputType="textCapCharacters" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status Member"
+        android:id="@+id/textView13"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txt_status"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:hint="Status"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:inputType="textCapWords" />
+
+</LinearLayout>

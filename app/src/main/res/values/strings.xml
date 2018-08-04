@@ -1,0 +1,307 @@
+<resources>
+    <string name="app_name">A-Mobile</string>
+    <string name="home">Halaman Depan</string>
+    <string name="daftar">Daftar Member</string>
+    <string name="keluar">Keluar</string>
+    <string name="title_activity_main">A-Mobile</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="about">Tentang</string>
+    <string name="login_success">login berhasil</string>
+    <string name="login">LOGIN</string>
+    <string name="Username">Email</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Lupa Password Om ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Ulangi Password</string>
+    <string name="next">Lanjut</string>
+    <string name="register">DAFTAR</string>
+
+    <string name="hint_username">Masukan Username</string>
+    <string name="hint_email_reset">Masukan Email</string>
+    <string name="enter_group_name">Nama Group</string>
+
+    <!--parameter firebase -->
+    <string name="email">Email</string>
+    <string name="action_sign_in_short">DAFTAR</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Sudah Terdaftar !Masuk</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Lupa password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Kembali]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="prompt_password">Konfirmasi Password</string>
+    <string name="btn_remove">Remove</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_keluar">Keluar</string>
+    <string name="profil">Profil</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Lupa password?</string>
+    <string name="forgot_password_msg">Masukan Email anda yang terdaftar agar di kirim ke Email tersebut.</string>
+    <string name="title_activity_profil_chat">ProfilChat</string>
+    <string name="title_activity_chatrooms_activitys">ChatroomsActivitys</string>
+	
+	<string name="title_activity_beranda">Artikel</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="customnotificationticker">PENGUMUNAN</string>
+    <string name="action_settings">Settings</string>
+    <string name="judul">PENGUMUMAN</string>
+    <string name="isi">Member Baru telah mendaftar</string>
+    <string name="kopdar">KOPDAR</string>
+    <string name="struktur">Struktur Kepengurusan</string>
+    <string name="isikopdar">Info Update Kopdar</string>
+    <string name="event">EVENT</string>
+    <string name="isiEvent">Info Update Event</string>
+    <string name="artikel">ARTIKEL</string>
+    <string name="isiArtikel">Info Update Artikel</string>
+    <string name="meminfo">Member info</string>
+    <string name="memdes">Member terdaftar Accent-er memiliki beberapa region gabungan yaitu:</string>
+    <string name="memdeds1">
+        1. <b>BODECI (Bogor, Depok ,Cibubur)</b> 
+    Chapter ini mencakup beberapa daerah atau kota dan dibuat satu lingkup chapter menjadi BODECI.</string>
+    <string name="memdes2">
+        2. <b>CIPASERA (Cilegon, Pandeglang, Serang, Rangkasbitung)</b>
+    Chapter ini termasuk ke dalam Region BANTEN, namun setelah pendeklarasian beberapa waktu lalu akhirnya chapter ini berdiri untuk kepengurusannya tetapi masih dalam regional BANTEN.
+    </string>
+    <string name="memdes3">
+        3. <b>BEKACI (Bekasi, Karawang, Cikampek)</b>
+    Chapter gabungan antara kota serta member yang terdaftar dalam member resmi Accent-er, untuk memudahkan penyebutan dalam gabungan chapter-chapter di singkat BEKACI.
+    </string>
+    <string name="memdesfot">
+        Untuk informasi penggabungan dalam penyebutan chapter yang lain akan segera di update.
+    </string>
+    <string name="tentang">Accent-er versi android ini adalah merupakan asli buatan member dari klub mobil <b>Hyundai Accent Series Club Indonesia yang biasa di
+    di sebut </b><u><b>Accent-er</b></u>.
+    </string>
+    <string name="tentang2"> Aplikasi ini memberikan kemudahan informasi seputar agenda yang ada di Klub Mobil<b>Accent-er</b>\nTerima Kasih anda Telah menggunakan
+        Aplikasi Accent-er versi android..untuk saran silahkan kirimkan email anda ke <i>admin@accent-er.com</i>
+        \nSelamat Menggunakan Aplikasi ini.\n
+
+        Dibuat oleh : indraBlake \n
+        Kritik dan Saran : dediindrajaya34@gmail.com </string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <string name="cari">Cari Member</string>
+    <string name="type_name">Masukan Nama</string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string-array name="member_array">
+        <item>ALL REGION JABODETABEK</item>
+        <item>DKI JAKARTA</item>
+        <item>BANDUNG</item>
+        <item>BODECI</item>
+        <item>BEKACI</item>
+        <item>BANTEN</item>
+        <item>CIPASERA</item>
+        <item>JATENG</item>
+        <item>JATIM</item>
+        <item>PEKANBARU</item>
+        <item>MEDAN</item>
+        <item>MADURA</item>
+        <item>PADANG</item>
+        <item>TASIKMALAYA</item>
+        <item>CIREBON</item>
+        <item>PALEMBANG</item>
+        <item>JAMBI</item>
+        <item>BALI</item>
+    </string-array>
+
+    <!-- area string login-->
+    <string name="hint_emails">Email</string>
+    <string name="hint_passwords">Password</string>
+    <string name="hint_names">Nama</string>
+    <string name="btn_logins">MASUK</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_registers">Login Hanya Untuk Admin Aplikasi</string>
+    <string name="btn_link_to_logins">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">KELUAR</string>
+    <string name="name">Fullname</string>
+    <string name="galeri">Galeri Foto</string>
+
+    <!-- Area menu-->
+    <string name="beranda">Beranda</string>
+    <string name="beranda_kopdar">Kopdar</string>
+    <string name="beranda_event">Event</string>
+    <string name="beranda_galeri">Galeri Kopdar</string>
+    <string name="beranda_list">Member List</string>
+    <string name="beranda_daftar">Daftar Member Baru</string>
+    <string name="beranda_login_admin">Masuk</string>
+    <string name="beranda_saran">Saran</string>
+    <string name="beranda_share">Bagikan</string>
+    <string name="beranda_admin">Copyright @2018</string>
+    <string name="beranda_masukan">Masukan</string>
+    <string name="admin_event">Event</string>
+    <string name="admin_galeri">Galeri Kopdar</string>
+    <string name="updates">Pembaruan</string>
+    <string name="admin_member">Member List</string>
+    <string name="admin_daftar_member">Daftar Member Baru</string>
+    <string name="admin_about">Tentang Aplikasi</string>
+    <string name="admin_logout">Keluar</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="admin_buat_artikel">Buat Arikel</string>
+    <string name="admin_buat_event">Buat Event</string>
+    <string name="admin_buat_kopdar">Buat Kopdar</string>
+    <string name="admin_buat_member">Update Member</string>
+    <string name="admin_buat_galeri">Buat Galeri Kopdar</string>
+    <string name="admin_bagikan">Bagikan Semua</string>
+    <string name="update_struktur">Update Struktur Pengurus</string>
+    <string name="admin_struktur">Struktur Pengurus</string>
+    <string name="action_logout">Keluar</string>
+    <string name="err_msg_name">username Salah</string>
+    <string name="err_msg_email">Email Salah</string>
+
+
+    <!-- spinner-->
+    <string-array name="status">
+        <item>Aktif</item>
+        <item>Tidak Aktif</item>
+        <item>Keluar</item>
+    </string-array>
+    <!-- region-->
+    <string-array name="region">
+        <item>DKI JAKARTA</item>
+        <item>BANDUNG</item>
+        <item>BOGOR</item>
+        <item>BEKASI</item>
+        <item>KARAWANG</item>
+        <item>DEPOK</item>
+        <item>CIBUBUR</item>
+        <item>TANGERANG</item>
+        <item>SUBANG</item>
+        <item>TASIKMALAYA</item>
+        <item>SUMEDANG</item>
+        <item>KUNINGAN</item>
+        <item>GARUT</item>
+        <item>YOGYAKARTA</item>
+        <item>SEMARANG</item>
+        <item>SOLO RAYA</item>
+        <item>PEMALANG</item>
+        <item>JATENGSEL</item>
+        <item>TEGAL</item>
+        <item>UNGARAN</item>
+        <item>SALATIGA</item>
+        <item>AMBARAWA</item>
+        <item>SIDOARJO</item>
+        <item>MALANG</item>
+        <item>MADIUN</item>
+        <item>SURABAYA</item>
+        <item>MADURA</item>
+        <item>PADANG KOTA</item>
+        <item>PARIAMAN</item>
+        <item>PAYAKUMBUH</item>
+        <item>BUKIT TINGGI</item>
+        <item>PEKANBARU</item>
+        <item>MEDAN</item>
+        <item>LAMPUNG</item>
+        <item>ACEH</item>
+        <item>BALI</item>
+        <item>NTB</item>
+        <item>NTT</item>
+        <item>MAKASSAR</item>
+    </string-array>
+    <string name="Keluar">Keluar Akun</string>
+    <string name="nexts">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">GASS TERUS</string>
+    <string name="slide_1_title">Selamat Datang</string>
+    <string name="slide_1_desc">Silahkan Gunakan Aplikasi ini</string>
+
+    <string name="slide_2_title">Accent-er Mobile</string>
+    <string name="slide_2_desc">Informasi Seputar Aktivitas dan Kegiatan Kami</string>
+
+    <string name="slide_3_title">Selamat Menikmati</string>
+    <string name="slide_3_desc">Dapatkan Informasi terbaru kami</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- login firebase -->
+
+    <string name="hint_email_firebase">Email</string>
+    <string name="hint_password_firebase">Password</string>
+    <string name="hint_name_firebase">Nama Lengkap</string>
+    <string name="btn_login_firebase">MASUK</string>
+    <string name="btn_link_to_register_firebase">Belum Member? Daftar Sekarang!</string>
+    <string name="btn_link_to_login_firebase">Sudah Terdaftar. Masuk!</string>
+
+    <!-- akhir firebase -->
+</resources>

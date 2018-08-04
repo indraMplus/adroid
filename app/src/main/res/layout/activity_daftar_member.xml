@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/about_background_color"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    tools:context="com.accenter.com.accentermobile.DaftarMember">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Form Pendaftaran Member Baru"
+            android:textAlignment="center"
+            android:textColor="#da1717"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silahkan lengkapi data diri anda di form di bawah ini"
+            android:textAlignment="center"
+            android:textColor="#ed6911"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNamaMemberDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nama Lengkap"
+            android:inputType="textCapWords|textPersonName"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etAlamatMember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:inputType="textCapWords|text"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/etNotelpDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="No Telepon"
+            android:inputType="phone"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/etEmailMember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Region / Chapter"
+            android:textColor="#f98585"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/etRegionDaftarMember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Region /Chapter" />
+
+        <EditText
+            android:id="@+id/etRangkaMobilDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No Rangka Mobil*"
+            android:inputType="textCapCharacters|text"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/etTahunMobilDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tahun Mobil"
+            android:inputType="number"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/etNoSimDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No SIM"
+            android:inputType="textCapWords|text"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/etKeterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:hint="*Jika anda sudah punya nopung berikan keterangan disini\nJika member baru berikan keterangan Member Baru"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/bg_screen1"
+            android:textSize="14sp"
+            android:textStyle="normal|italic"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/btnDaftarMember"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#1bdede"
+            android:text="DAFTAR"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

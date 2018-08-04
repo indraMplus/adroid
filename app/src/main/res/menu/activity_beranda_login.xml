@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/beranda" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/admin_event" />
+        <item
+            android:id="@+id/nav_kopdar"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/beranda_kopdar" />
+        <item
+            android:id="@+id/nav_galeri_kopdar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/admin_buat_galeri" />
+        <item
+            android:id="@+id/nav_member"
+            android:icon="@drawable/ic_card_membership_black_24dp"
+            android:title="@string/admin_member" />
+        <item
+            android:id="@+id/nav_struktur"
+            android:icon="@drawable/ic_subject_black_24dp"
+            android:title="@string/update_struktur" />
+        <item
+            android:id="@+id/nav_daftar"
+            android:icon="@drawable/ic_border_color_black_24dp"
+            android:title="@string/admin_daftar_member" />
+        <item
+            android:id="@+id/nav_updates"
+            android:icon="@drawable/ic_update_black_24dp"
+            android:title="@string/updates" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="@string/admin_about" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_lock_open_black_24dp"
+            android:title="@string/admin_logout" />
+    </group>
+
+    <item android:title="@string/admin_panel">
+        <menu>
+            <item
+                android:id="@+id/nav_artikel"
+                android:icon="@drawable/ic_create_black_24dp"
+                android:title="@string/admin_buat_artikel" />
+            <item
+                android:id="@+id/nav_update_member"
+                android:icon="@drawable/ic_account_box_black_24dp"
+                android:title="@string/admin_buat_member" />
+            <item
+                android:id="@+id/nav_update_kopdar"
+                android:icon="@drawable/ic_people_black_24dp"
+                android:title="@string/admin_buat_kopdar" />
+            <item
+                android:id="@+id/nav_update_event"
+                android:icon="@drawable/ic_account_box_black_24dp"
+                android:title="@string/admin_buat_event" />
+            <!--<item
+                android:id="@+id/nav_update_galeri"
+                android:icon="@drawable/ic_camera_enhance_black_24dp"
+                android:title="@string/admin_buat_galeri" />-->
+            <!--<item
+                android:id="@+id/nav_update_struktur"
+                android:icon="@drawable/ic_subject_black_24dp"
+                android:title="@string/admin_struktur" />-->
+            <item
+                android:id="@+id/nav_bagikan"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/admin_bagikan" />
+        </menu>
+    </item>
+
+</menu>

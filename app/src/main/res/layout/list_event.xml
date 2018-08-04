@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/imageEvent"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textJudulEvent"
+            android:padding="4dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/textJudulEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewTglEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageEvent"
+            android:layout_marginLeft="4dp"
+            android:layout_toEndOf="@+id/imageEvent"
+            android:layout_toRightOf="@+id/imageEvent"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/textViewPostEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageEvent"
+            android:layout_alignLeft="@+id/textViewTglEvent"
+            android:layout_alignStart="@+id/textViewTglEvent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="18dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#fab427"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewIsiEvent"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewPostEvent"
+            android:layout_marginTop="4dp"
+            android:textSize="13dp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5b71ea</color>
+    <color name="colorPrimaryDark">#374fe6</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="whites">#ffffff</color>
+    <color name="black">#43cd87</color>
+    <color name="colorIndivateTab">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorCardView">#f7f7f7</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_500">#a4a4a4</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_800">#212121</color>
+
+    <!-- parameter firebase -->
+    <color name="bg_logins">#26ae90</color>
+    <color name="bg_registers">#2e3237</color>
+    <color name="bg_mains">#428bca</color>
+    <color name="input_logins">#222222</color>
+    <color name="input_login_hints">#999999</color>
+    <color name="input_registers">#888888</color>
+    <color name="input_register_bgs">#3b4148</color>
+    <color name="input_register_hints">#5e6266</color>
+    <color name="btn_logins">#26ae90</color>
+    <color name="btn_login_bgs">#d0d3d7</color>
+    <color name="lbl_names">#333333</color>
+    <color name="btn_logut_bgs">#ff6861</color>
+    <color name="about_background_color">#ffffff</color>
+	<color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="bg_bubble_self">#d9d9d9</color>
+
+    <!-- Area Login-->
+    <color name="bg_login">#1263af</color>
+    <color name="bg_register">#daac13</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#fdfdfd</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#900e08</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#fc033c</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+    <color name="colorPrimaryLight">#FFE0B2</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorSender">#DDFAC8</color>
+
+    <color name="colorLink">#0588BC</color>
+    <color name="colorDividerTransparent">#77B6B6B6</color>
+</resources>

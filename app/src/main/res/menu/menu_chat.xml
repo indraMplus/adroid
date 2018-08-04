@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.accenter.com.accentermobile.chat.ChatroomsActivitys">
+    <!-- Search / will display always -->
+
+    <!-- Refresh -->
+    <item
+        android:id="@+id/action_profil"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="@string/profil"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ref"
+        android:enabled="true"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        android:title="@string/action_refresh"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_keluar"
+        android:enabled="true"
+        android:orderInCategory="110"
+        android:title="@string/action_keluar" />
+
+
+</menu>

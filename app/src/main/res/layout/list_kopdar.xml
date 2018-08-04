@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/textJudulKopdar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewNopung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_below="@+id/textJudulKopdar"
+            />
+
+        <TextView
+            android:id="@+id/textViewChapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="13sp"
+            android:textColor="#fab427"
+            android:layout_alignBottom="@+id/textViewNopung"
+            android:layout_below="@+id/textJudulKopdar"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewIsiKopdar"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textViewChapter"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewRegionKopdar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textJudulKopdar"
+            android:layout_marginLeft="160dp"
+            android:layout_toEndOf="@+id/textViewNopung"
+            android:layout_toRightOf="@+id/textViewNopung"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#eb1c1c"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>

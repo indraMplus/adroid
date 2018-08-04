@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "326034954939",
+    "firebase_url": "https://accenternew.firebaseio.com",
+    "project_id": "accenternew",
+    "storage_bucket": "accenternew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326034954939:android:908e26120cd997e9",
+        "android_client_info": {
+          "package_name": "com.accenter.com.accentermobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326034954939-0aleh5ksq54e49n3mj08q71shv0ao974.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.accenter.com.accentermobile",
+            "certificate_hash": "71e9890bc1a475b22192baa328bb97a21a47ba2e"
+          }
+        },
+        {
+          "client_id": "326034954939-qlumfdhldil7ccdokqemn1fbmh772npi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVVsFrCGiSDmKipIE3r09T2yU6jUenJ1g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326034954939-qlumfdhldil7ccdokqemn1fbmh772npi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

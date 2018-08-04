@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#fefefe">
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textViewTglEvent"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#9e9a9a"
+            android:textStyle="normal|italic"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewPostEvent"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:layout_alignBottom="@+id/textViewTglEvent"
+            android:layout_toRightOf="@+id/textViewTglEvent"
+            android:layout_toEndOf="@+id/textViewTglEvent"
+            android:textColor="#edad2c" />
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewEvent"
+            android:layout_below="@+id/textViewJamEvent"
+            android:layout_toRightOf="@+id/textViewJamEvent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/textViewIsiEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageViewEvent"
+            android:layout_marginTop="27dp"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textViewJamEvent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+            android:textStyle="bold"
+            android:textIsSelectable="false"
+            android:text="test"
+            android:layout_alignTop="@+id/textViewPostEvent"
+            android:layout_toLeftOf="@+id/textViewPostEvent"
+            android:layout_toRightOf="@+id/textViewTglEvent"
+            android:layout_toEndOf="@+id/textViewTglEvent"
+            android:textSize="16sp"
+            android:visibility="invisible"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
